@@ -34,5 +34,6 @@ a = "11"
 b = "1"
 output = add_binary(a, b)
 print(output)  # Output: "100"
+
 if __name__ == "__main__":
     add_binary(a, b)
