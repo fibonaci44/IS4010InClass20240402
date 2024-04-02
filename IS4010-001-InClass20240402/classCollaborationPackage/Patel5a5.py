@@ -21,12 +21,12 @@ def check_palindrome(x):
         print(f"{x} is a palindrome.")
     else:
         print(f"{x} is not a palindrome.")
-
-# Example usage
-x = 121
-check_palindrome(x)  # Output: 121 is a palindrome
-
-# Test with other numbers
-check_palindrome(123)  # Output: 123 is not a palindrome
-check_palindrome(1221)  # Output: 1221 is a palindrome
-check_palindrome(12321)  # Output: 12321 is a palindrome
+if __name__ == "__main__":
+    # Example usage
+    x = 121
+    check_palindrome(x)  # Output: 121 is a palindrome
+    
+    # Test with other numbers
+    check_palindrome(123)  # Output: 123 is not a palindrome
+    check_palindrome(1221)  # Output: 1221 is a palindrome
+    check_palindrome(12321)  # Output: 12321 is a palindrome

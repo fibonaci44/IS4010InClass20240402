@@ -31,5 +31,6 @@ def harrints(nums=None):
 
     raise ValueError("No valid solution")
 
-# Example usage
-harrints()  # Output: [0, 1]
+# Entry point check
+if __name__ == '__main__':
+    harrints()  # Output: [0, 1]
